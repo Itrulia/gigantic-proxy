@@ -10,6 +10,7 @@
   "author": "Karl Merkli <k.merkli@eslgaming.com>",
   "license": "MIT",
   "dependencies": {
+    "@types/express": "^4.0.35",
     "@types/node": "^7.0.8",
     "@types/q": "0.0.32",
     "@types/request-promise": "^4.1.33",
@@ -19,8 +20,8 @@
     "request-promise": "^4.1.1",
     "request-promise-cache": "^1.0.6",
     "rxjs": "^5.2.0",
-    "ts-node": "^2.1.0",
-    "typescript": "^2.2.1"
+    "ts-node": "2.1.0",
+    "typescript": "2.2.1"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
