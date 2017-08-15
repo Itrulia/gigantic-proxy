@@ -4,7 +4,7 @@ import * as request from "request-promise";
 export const searchRouter = express.Router();
 
 searchRouter.get('/:playerId', function (req, res) {
-    const playerId = req.params.playerId;
+    const playerId = req.params.playerId.replace("#", "%23");
 
     const url = `https://stats.gogigantic.com/en/gigantic-careers/playersearch/?username=${playerId}&page_num=0&page_size=100`;
 
